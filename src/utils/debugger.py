@@ -65,6 +65,10 @@ class Debugger(object):
       
   def saveImg(self, path = 'debug/debug.png', imgId = 0):
     cv2.imwrite(path, self.imgs[imgId])
+
+  def getImg(self, imgId = 0):
+    return(self.imgs[imgId])  
+
     
   def showAllImg(self, pause = False):
     for i, v in self.imgs.items():

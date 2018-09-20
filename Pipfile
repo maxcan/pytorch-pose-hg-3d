@@ -1,0 +1,18 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+opencv-python = "*"
+torch = {file = "http://download.pytorch.org/whl/cu90/torch-0.3.1-cp27-cp27mu-linux_x86_64.whl"}
+matplotlib = "*"
+jupyter = "*"
+netron = "*"
+imutils = "*"
+tqdm = "*"
+
+[dev-packages]
+
+[requires]
+python_version = "2.7"
